@@ -16,7 +16,7 @@ function App() {
       <div className="container mt-4">
         <div className="TimelineSection">
           {timeLineData.map((el, cardIndex) => (
-            <TimelineCard cardIndex={cardIndex} el={el}/>
+            <TimelineCard cardIndex={cardIndex} el={el} />
           ))}
         </div>
       </div>

@@ -3,7 +3,6 @@ import React, { useEffect } from "react";
 
 const TimelineCard = ({ cardIndex, el }) => {
   useEffect(() => {
-    console.log("hell");
     let tl = gsap.timeline({
       scrollTrigger: {
         trigger: `.TimlineCard_${cardIndex}`,
