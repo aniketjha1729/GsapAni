@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bigB {
+  height: 100vh;
+  background-color: rgb(190, 94, 78);
+}
+
+
+.scrollDist {
+  height: 100px;
+  width: 100px;
+  border: 1px solid red;
+}
+
+.dottedLine {
+  border-left: 6px dotted red;
+  height: 100%;
+  position: absolute;
+  left: 2%;
+  margin-left: -3px;
+  top:0;
+}
+
+
+.CardListContainer:nth-child(4) .GradientLineContainer .dottedLine{
+  display: none;
+}
+
+.gradientLine {
+  border-left: 6px solid red;
+  position: absolute;
+  left: 2%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.movingBall{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  left: 0;
+}
