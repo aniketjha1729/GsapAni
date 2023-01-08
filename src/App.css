@@ -24,9 +24,9 @@
 }
 
 
-.CardListContainer:nth-child(4) .GradientLineContainer .dottedLine{
+/* .CardListContainer:nth-child(4) .GradientLineContainer .dottedLine{
   display: none;
-}
+} */
 
 .gradientLine {
   border-left: 6px solid red;
