@@ -7,7 +7,6 @@
   background-color: rgb(190, 94, 78);
 }
 
-
 .scrollDist {
   height: 100px;
   width: 100px;
@@ -20,11 +19,10 @@
   position: absolute;
   left: 2%;
   margin-left: -3px;
-  top:0;
+  top: 0;
 }
 
-
-.CardListContainer:nth-child(4) .GradientLineContainer .dottedLine{
+.CardListContainer:nth-child(4) .GradientLineContainer .dottedLine {
   display: none;
 }
 
@@ -36,11 +34,38 @@
   top: 0;
 }
 
-.movingBall{
+.circleContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -3.7%;
+  width: fit-content;
+}
+
+.movingBall {
   position: absolute;
   width: 20px;
   height: 20px;
-  background-color: red;
+  background-color: blue;
   border-radius: 50%;
   left: 0;
+}
+
+.staticBall {
+  background-color: red;
+  top: 21%;
+  left: 22%; 
+  width: 60%; 
+  height: 60%; 
+  position: absolute;
+  border-radius: 50%;
+}
+
+.outerStaticBall {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  border: 1px solid red;
+  border-radius: 50%;
+  background-color: white;
 }
